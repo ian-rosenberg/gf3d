@@ -1,0 +1,253 @@
+﻿Build started 10/5/2018 2:14:01 PM.
+     1>Project "C:\Users\sapph\Desktop\GF3D\gf3d\win32\gf3d.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\sapph\Desktop\GF3D\gf3d\glm-master" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\game.c ..\src\gf3d_camera.c ..\src\gf3d_commands.c ..\src\gf3d_extensions.c ..\src\gf3d_matrix.c ..\src\gf3d_model.c ..\src\gf3d_pipeline.c ..\src\gf3d_shaders.c ..\src\gf3d_swapchain.c ..\src\gf3d_types.c ..\src\gf3d_validation.c ..\src\gf3d_vector.c ..\src\gf3d_vertexbuffers.c ..\src\gf3d_vertex_buffers.c ..\src\gf3d_vgraphics.c ..\src\gf3d_vqueues.c ..\src\simple_logger.c
+         game.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1298): warning C4005: 'M_PI' : macro redefinition
+                 c:\sdl2-2.0.8\include\SDL_stdinc.h(499) : see previous definition of 'M_PI'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2085: 'glmm_dot' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2085: 'glmm_norm' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2085: 'glmm_load3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2085: 'glmm_store3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4013: 'glmm_dot' undefined; assuming extern returning int
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2440: 'function' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4024: '_mm_sqrt_ss' : different types for formal and actual parameter 1
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2440: '=' : cannot convert from 'int' to '__m128'
+         gf3d_camera.c
+         gf3d_commands.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1298): warning C4005: 'M_PI' : macro redefinition
+                 c:\sdl2-2.0.8\include\SDL_stdinc.h(499) : see previous definition of 'M_PI'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2085: 'glmm_dot' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2085: 'glmm_norm' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2085: 'glmm_load3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2085: 'glmm_store3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4013: 'glmm_dot' undefined; assuming extern returning int
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2440: 'function' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4024: '_mm_sqrt_ss' : different types for formal and actual parameter 1
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>..\src\gf3d_commands.c(61): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+         gf3d_extensions.c
+     1>..\src\gf3d_extensions.c(46): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>..\src\gf3d_extensions.c(58): warning C4090: 'function' : different 'const' qualifiers
+     1>..\src\gf3d_extensions.c(79): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_extensions.c(83): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>..\src\gf3d_extensions.c(95): warning C4090: 'function' : different 'const' qualifiers
+     1>..\src\gf3d_extensions.c(106): warning C4018: '<' : signed/unsigned mismatch
+         gf3d_matrix.c
+         gf3d_model.c
+         gf3d_pipeline.c
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2085: 'glmm_dot' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2085: 'glmm_norm' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2085: 'glmm_load3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2085: 'glmm_store3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4013: 'glmm_dot' undefined; assuming extern returning int
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2440: 'function' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4024: '_mm_sqrt_ss' : different types for formal and actual parameter 1
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>..\src\gf3d_pipeline.c(4): fatal error C1083: Cannot open include file: 'gf3d_vertexbuffers.h': No such file or directory
+         gf3d_shaders.c
+         gf3d_swapchain.c
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2085: 'glmm_dot' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2085: 'glmm_norm' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2085: 'glmm_load3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2085: 'glmm_store3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4013: 'glmm_dot' undefined; assuming extern returning int
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2440: 'function' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4024: '_mm_sqrt_ss' : different types for formal and actual parameter 1
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>..\src\gf3d_swapchain.c(51): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_swapchain.c(66): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_swapchain.c(84): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>..\src\gf3d_swapchain.c(113): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_swapchain.c(193): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_swapchain.c(222): warning C4047: 'return' : 'VkImageView' differs in levels of indirection from 'void *'
+     1>..\src\gf3d_swapchain.c(249): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_swapchain.c(262): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_swapchain.c(278): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_swapchain.c(287): warning C4018: '<' : signed/unsigned mismatch
+         gf3d_types.c
+         gf3d_validation.c
+     1>..\src\gf3d_validation.c(34): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_validation.c(50): warning C4090: 'function' : different 'const' qualifiers
+     1>..\src\gf3d_validation.c(59): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>..\src\gf3d_validation.c(65): warning C4018: '<' : signed/unsigned mismatch
+         gf3d_vector.c
+     1>..\src\gf3d_vector.c(30): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(35): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(40): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(45): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(50): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(55): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(241): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(245): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(271): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(276): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(281): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(352): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(353): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(354): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(356): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(357): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(358): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(360): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(361): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(362): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(376): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(377): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(378): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(379): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(394): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(410): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(426): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(443): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(444): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(445): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(446): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(447): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(448): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(449): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(450): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(451): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(475): warning C4244: 'function' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(488): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(489): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(507): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(517): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(525): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\gf3d_vector.c(534): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         gf3d_vertexbuffers.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\src\gf3d_vertexbuffers.c': No such file or directory
+         gf3d_vertex_buffers.c
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2085: 'glmm_dot' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2085: 'glmm_norm' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2085: 'glmm_load3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2085: 'glmm_store3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4013: 'glmm_dot' undefined; assuming extern returning int
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2440: 'function' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4024: '_mm_sqrt_ss' : different types for formal and actual parameter 1
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>C:\Users\sapph\Desktop\GF3D\gf3d\include\gf3d_vertex_buffers.h(7): error C2061: syntax error : identifier 'vertices'
+     1>C:\Users\sapph\Desktop\GF3D\gf3d\include\gf3d_vertex_buffers.h(7): error C2059: syntax error : ';'
+     1>C:\Users\sapph\Desktop\GF3D\gf3d\include\gf3d_vertex_buffers.h(7): error C3409: empty attribute block is not allowed
+     1>C:\Users\sapph\Desktop\GF3D\gf3d\include\gf3d_vertex_buffers.h(7): error C2513: '/*global*/ ' : no variable declared before '='
+         gf3d_vgraphics.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1298): warning C4005: 'M_PI' : macro redefinition
+                 c:\sdl2-2.0.8\include\SDL_stdinc.h(499) : see previous definition of 'M_PI'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2085: 'glmm_dot' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(48): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2085: 'glmm_norm' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(57): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2085: 'glmm_load3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(63): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2054: expected '(' to follow 'inline'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2057: expected constant expression
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2085: 'glmm_store3' : not in formal parameter list
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\simd/intrin.h(75): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4013: 'glmm_dot' undefined; assuming extern returning int
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): error C2440: 'function' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(236): warning C4024: '_mm_sqrt_ss' : different types for formal and actual parameter 1
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\vec4.h(592): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2718: '__m128': actual parameter with __declspec(align('16')) won't be aligned
+     1>c:\users\sapph\desktop\gf3d\gf3d\cglm-master\include\cglm\quat.h(221): error C2440: '=' : cannot convert from 'int' to '__m128'
+     1>..\src\gf3d_vgraphics.c(229): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>..\src\gf3d_vgraphics.c(292): warning C4090: 'function' : different 'const' qualifiers
+     1>..\src\gf3d_vgraphics.c(437): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\gf3d_vgraphics.c(443): warning C4133: 'function' : incompatible types - from 'VkPhysicalDeviceProperties *' to 'VkPhysicalDeviceFeatures *'
+     1>..\src\gf3d_vgraphics.c(540): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+         gf3d_vqueues.c
+     1>..\src\gf3d_vqueues.c(111): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+         simple_logger.c
+     1>..\src\simple_logger.c(28): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>Done Building Project "C:\Users\sapph\Desktop\GF3D\gf3d\win32\gf3d.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.45
